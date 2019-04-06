@@ -233,7 +233,7 @@ image.src = "img/kittens.jpeg"
 // TODO: Get any element on the page and change some styles for it.
 
 const header = document.querySelector("header")
-header.style.backgroundColor = "black"
+header.style.backgroundColor = "grey"
 
 
 /*
@@ -262,23 +262,26 @@ header.style.backgroundColor = "black"
 //
 // P.S. You also can give styles to the new node that you create.
 
+// Note that if there are multiple "div" tags in the HTML there may be some confusion in the code leading to the image being placed in multiple sections, this can be avoided by selecting the required element with the "id"
+// It may also just select the first instance of the tag
+const div = document.querySelector("div")
+// Note the "tag" used to define the element must be a HTML tag
+const newImage = document.createElement("img")
+newImage.src = "img/logo_muses_color.svg"
+// newImage.appendChild(imageSrc)
+div.appendChild(newImage)
 
 
+const pageNode = document.querySelector('body');
+const newParagraph = document.createElement('p');
+const paragraphText = document.createTextNode('Squee!');
+newParagraph.appendChild(paragraphText);
+pageNode.appendChild(newParagraph);
 
+/*
+Can access elements by their id with #<idName> or if there is class definition .<classname>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
 ////////////////////////////////////////////////////////////////////////
 // Congratulations! You have finished Part 3 of JavaScript Basics!    //
 // Stand up, stretch your legs, and celebrate your achievement.       //
