@@ -343,6 +343,22 @@ console.log("Subtract with variables" + ans2)
 // Don't forget to console.log it to see the result.
 let operator = "-"
 
+let ans3
+if (operator === "-") {
+    console.log("operator is subtract")
+    ans3 = subtract(a, b)
+} else {
+    console.log("Operator is addition")
+    ans3 = add(a, b)
+}
+console.log("If-else branch " + ans3)
+
+
+/*
+Note if 'let' is used to define a variable inside an 'if-else' block then the variable become local to the if-else block and can't be used elsewhere. See code above for how to define variables to be used outside of 'if-else' blocks
+
+INCORRECT DEFINITION BELOW, this will throw a ReferenceError
+
 if (operator === "-") {
     console.log("operator is subtract")
     let ans3 = subtract(a, b)
@@ -351,7 +367,7 @@ if (operator === "-") {
     let ans3 = add(a, b)
 }
 console.log("If-else branch " + ans3)
-
+*/
 
 
 /*
@@ -389,6 +405,7 @@ function multiply (num1, num2) {
     return total
 }
 
+let 
 if (operator === "-") {
     let ans4 = subtract(a, b)
 } else if (operator === "+") {
