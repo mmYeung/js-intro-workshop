@@ -147,7 +147,7 @@ const speedOfLight = 299792458
 // alert("The speed of light is " + speedOfLight)
 
 // TODO: Try to assign a new value to your constant to see what happens.
-speedOfLight = 0
+// speedOfLight = 0
 
 // Trying to reassign a constant variable causes a TypeError to be raised
 
@@ -184,7 +184,12 @@ speedOfLight = 0
 
 let ten = 10
 let three = 3
+
+// Below is an example of reassigning the value of a mutable variable
+// three = 4
+
 let multipleOfNumbers = ten * three
+
 
 console.log("The multiple of numbers is " + multipleOfNumbers)
 
