@@ -40,6 +40,7 @@
 // TODO: Now try to create an alert with any phrase you like.
 
 alert("Hello people")
+console.log("Hello world")
 
 
 
