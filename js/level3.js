@@ -121,14 +121,6 @@
 let ourTitle = document.querySelector("h1")
 console.log("h1 tag: " + ourTitle)
 
-
-
-
-
-
-
-
-
 /*
     Getting Similar Elements
     ========================
@@ -147,12 +139,8 @@ console.log("h1 tag: " + ourTitle)
 // TODO: Get all <li> elements from the page in a variable named mediaLinks.
 let mediaLinks = document.querySelectorAll("li")
 
-
-
 // TODO: Now console.log mediaLinks.length
 console.log("media links: " + mediaLinks.length)
-
-
 
 
 // TODO: Do you remember loops from level 2? Using this knowledge, iterate
@@ -161,12 +149,6 @@ console.log("media links: " + mediaLinks.length)
 for (let i = 0; i < mediaLinks.length; i++) {
     console.log("Element " + i + " is " + mediaLinks[i])
 }
-
-
-
-
-
-
 
 
 /*
@@ -181,7 +163,7 @@ for (let i = 0; i < mediaLinks.length; i++) {
 
 
 // TODO: Get the content of 'h1' element and console.log it.
-
+console.log("our title content = " + ourTitle.textContent)
 
 
 
