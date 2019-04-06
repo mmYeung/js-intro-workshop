@@ -231,7 +231,7 @@ console.log("The multiple of numbers is " + multipleOfNumbers)
 // - To see the result you can console.log it.
 
 function add(num1, num2) {
-    total = num1 + num2
+    let total = num1 + num2
     return total
 }
 
@@ -248,6 +248,20 @@ console.log(add(2,3))
 // PS: Do you know that instead of numbers you can create variables that store
 // those numbers and pass them as an arguments to your function? Try it out!
 
+function subtract(num1, num2) {
+    let total = num1 - num2
+    return total
+}
+
+let total = subtract(5,1)
+console.log("The result of subtract is "  + total)
+
+let a = 4
+let b = 6
+
+let total = subtract(a, b)
+
+console.log("Subtract with variables" + total)
 
 
 
