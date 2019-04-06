@@ -182,7 +182,11 @@ speedOfLight = 0
 // 1st variable multiplied by the 2nd variable. And in the end display the
 // value of multipleOfNumbers.
 
+let ten = 10
+let three = 3
+let multipleOfNumbers = ten * three
 
+console.log("The multiple of numbers is " + multipleOfNumbers)
 
 
 
