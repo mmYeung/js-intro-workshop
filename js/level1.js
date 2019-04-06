@@ -114,6 +114,10 @@ let numberTwo
 
 // TODO: Create 2 variables, 1 with your name and the 2nd with your age and display
 // them with an alert pop-up box.
+let name = "Miriam"
+let age = 25
+
+alert("My name is ", name, "and I am ", age, "years old.")
 
 
 /*
