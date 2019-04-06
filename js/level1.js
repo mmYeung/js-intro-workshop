@@ -117,8 +117,9 @@ let numberTwo
 let name = "Miriam"
 let age = 25
 
-alert("My name is ", name, "and I am ", age, "years old.")
+alert("My name is " + name + "and I am " + age + "years old.")
 
+// String concatenatation is required for an alert message containing variables. The concatenation does not include spaces!!
 
 /*
     Constants
