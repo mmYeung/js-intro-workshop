@@ -339,17 +339,6 @@ for (let i = 0; i <= 50; i++) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 ////////////////////////////////////////////////////////////////////////////
 // Congratulations! You have finished Part 2 of JavaScript Basics!        //
 // Stand up, stretch your legs, and celebrate your achievement.           //
