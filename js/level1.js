@@ -230,6 +230,12 @@ console.log("The multiple of numbers is " + multipleOfNumbers)
 // Step 3 - Call the function passing numbers 2 and 3 as arguments.
 // - To see the result you can console.log it.
 
+function add(num1, num2) {
+    total = num1 + num2
+    return total
+}
+
+console.log(add(2,3))
 
 
 
