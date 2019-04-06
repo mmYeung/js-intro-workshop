@@ -256,9 +256,11 @@ while (number !== 0){
 // TODO: Log every 3rd number from three to 22 using a 'for loop'.
 
 
+let i
 
-
-
+for (i = 3; i < 22; i = i + 3){
+    console.log("increment = " + i)
+}
 
 
 /*
