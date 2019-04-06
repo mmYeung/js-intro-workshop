@@ -40,7 +40,7 @@
 // TODO: Now try to create an alert with any phrase you like.
 
 // alert("Hello people")
-console.log("Hello world")
+
 
 
 
@@ -50,7 +50,7 @@ console.log("Hello world")
 
 // TODO: Shall we try to console.log the message to the browser?
 // Send any message you like.
-
+console.log("Hello world")
 
 
 
