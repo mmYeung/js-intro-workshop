@@ -166,13 +166,6 @@ for (let i = 0; i < mediaLinks.length; i++) {
 console.log("our title content = " + ourTitle.textContent)
 
 
-
-
-
-
-
-
-
 /*
     Editing Page Content
     ====================
@@ -190,8 +183,11 @@ console.log("our title content = " + ourTitle.textContent)
 // TODO: Make up a new title! Change the content of our 'h1' to anything you
 // like.
 
+ourTitle.textContent = "JavaScript Intro"
 
+console.log("New title: " + ourTitle.textContent)
 
+// Note this changes the content displayed on the HTML page
 
 
 /*
