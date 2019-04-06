@@ -228,12 +228,14 @@ console.log("Constant array, add element", favouriteFoodconst)
 
 // TODO: Using a 'while loop', tell your computer to log the numbers from
 // ten to one.
+let number = 10
 
+while (number !== 0){
+    console.log("number = " + number)
 
-
-
-
-
+    // Increment
+    number = number - 1
+}
 
 
 /*
