@@ -99,7 +99,7 @@ console.log("Hello world")
 let numberOne
 let numberTwo
 
-
+// If a variable is undefined a ReferenceError is raised
 
 /*
     You also can use your variables to represent information that they have inside.
