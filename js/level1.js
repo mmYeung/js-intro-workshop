@@ -253,15 +253,15 @@ function subtract(num1, num2) {
     return total
 }
 
-let total = subtract(5,1)
-console.log("The result of subtract is "  + total)
+let ans = subtract(5,1)
+console.log("The result of subtract is "  + ans)
 
 let a = 4
 let b = 6
 
-let total = subtract(a, b)
+let ans2 = subtract(a, b)
 
-console.log("Subtract with variables" + total)
+console.log("Subtract with variables" + ans2)
 
 
 
