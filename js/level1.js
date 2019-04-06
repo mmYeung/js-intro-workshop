@@ -389,14 +389,17 @@ function multiply (num1, num2) {
     return total
 }
 
-
-
-
-
-
-
-
-
+if (operator === "-") {
+    let ans4 = subtract(a, b)
+} else if (operator === "+") {
+    let ans4 = add(a, b)
+} else if (operator === "/") {
+    let ans4 = divide(a, b)
+} else if (operator === "*") {
+    let ans4 = multiply(a, b)
+} else {
+    console.log("Sorry, we don't know this operator")
+}
 
 /* 
     Boolean Operators
