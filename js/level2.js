@@ -41,10 +41,7 @@
 
 // TODO: Create your own array, named favouriteFood, and write in a couple of
 // things you like.
-
-
-
-
+let favouriteFood = ["apples", "pears", "oranges"]
 
 /*
     Array Length
@@ -61,9 +58,7 @@
 // TODO: Check how many values you have in your array favouriteFood.
 // console.log the result.
 
-
-
-
+console.log("Number of favourite foods: " + favouriteFood.length)
 
 
 /*
@@ -86,7 +81,9 @@
 */
 
 // TODO: Get third element from your array favouriteFood and console.log it.
+let thirdElement = favouriteFood[2]
 
+console.log("The third item is: " + thirdElement)
 
 
 
