@@ -65,7 +65,7 @@
     like this:
 
     body {
-      background-color: white;
+      background-color: white; 
     }
 
     Selectors can also refer to elements by their class attribute like this:
@@ -118,7 +118,8 @@
 // TODO: Now it's your turn — get the h1 tag from the page and store it into a
 // variable named ourTitle.
 // console.log it and see what you get!
-
+let ourTitle = document.querySelector("h1")
+console.log("h1 tag: " + ourTitle)
 
 
 
@@ -144,11 +145,12 @@
 
 
 // TODO: Get all <li> elements from the page in a variable named mediaLinks.
-
+let mediaLinks = document.querySelectorAll("li")
 
 
 
 // TODO: Now console.log mediaLinks.length
+console.log("media links: " + mediaLinks.length)
 
 
 
@@ -156,6 +158,9 @@
 // TODO: Do you remember loops from level 2? Using this knowledge, iterate
 // through each mediaLinks item and console.log it.
 
+for (let i = 0; i < mediaLinks.length; i++) {
+    console.log("Element " + i + " is " + mediaLinks[i])
+}
 
 
 
