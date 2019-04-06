@@ -378,9 +378,17 @@ console.log("If-else branch " + ans3)
 // that let's extend our 'if else' check that we already created by checking if
 // it is equal to '/' - call 'divide' function, if it is '*' call multiply
 // function, else console.log - "Sorry, we don't know this operator".
+
 function divide (num1, num2) {
-    
+    let total = num1/num2
+    return total
 }
+
+function multiply (num1, num2) {
+    let total = num1 * num2
+    return total
+}
+
 
 
 
