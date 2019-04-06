@@ -326,7 +326,17 @@ for (let i = 0; i < favouriteFood.length; i++) {
 // 16 % 4 = 0 — in 16 we have 4*4
 // 19 % 4 = 3 — in 19 we have 4*4 + 3 etc
 
-
+for (let i = 0; i <= 50; i++) {
+    if((i % 3 === 0) && (i % 5 === 0)) {
+        console.log("Fizz & Buzz: " + i)
+    } else if (i % 5 === 0) {
+        console.log("Buzz: " + i)
+    } else if (i % 3 === 0) {
+        console.log("Fizz: " + i)
+    } else {
+        console.log("Other: " + i)
+    }
+}
 
 
 
