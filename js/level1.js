@@ -248,6 +248,13 @@ console.log(add(2,3))
 // PS: Do you know that instead of numbers you can create variables that store
 // those numbers and pass them as an arguments to your function? Try it out!
 
+
+// Note if a variable has already been defined with 'let' then the variable can not be re assigned. A ReferenceError will be raised
+
+/*
+If a variable is written without 'let' or 'const' infront of the INTIAL definition, then the variable is assumed to be a 'var' (somethin similar to global variables)
+*/
+
 function subtract(num1, num2) {
     let total = num1 - num2
     return total
@@ -334,24 +341,16 @@ console.log("Subtract with variables" + ans2)
 // else the subtract function with any 2 numbers.
 //
 // Don't forget to console.log it to see the result.
+let operator = "-"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+if (operator === "-") {
+    console.log("operator is subtract")
+    let ans3 = subtract(a, b)
+} else {
+    console.log("Operator is addition")
+    let ans3 = add(a, b)
+}
+console.log("If-else branch " + ans3)
 
 
 
@@ -379,7 +378,9 @@ console.log("Subtract with variables" + ans2)
 // that let's extend our 'if else' check that we already created by checking if
 // it is equal to '/' - call 'divide' function, if it is '*' call multiply
 // function, else console.log - "Sorry, we don't know this operator".
-
+function divide (num1, num2) {
+    
+}
 
 
 
