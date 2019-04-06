@@ -284,15 +284,9 @@ for (i = 3; i < 22; i = i + 3){
 */
 
 // TODO: Try it out with your favouriteFood array.
-
-
-
-
-
-
-
-
-
+for (let i = 0; i < favouriteFood.length; i++) {
+    console.log("Favourite food " + i + " is " + favouriteFood[i])
+}
 
 
 /*
