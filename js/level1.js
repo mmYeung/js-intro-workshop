@@ -96,7 +96,8 @@ console.log("Hello world")
 */
 
 // TODO: Now create two undefined variables named numberOne and numberTwo.
-
+let numberOne
+let numberTwo
 
 
 
