@@ -86,10 +86,6 @@ let thirdElement = favouriteFood[2]
 console.log("The third item is: " + thirdElement)
 
 
-
-
-
-
 /*
     Changing Values in Arrays
     =========================
@@ -112,10 +108,11 @@ console.log("The third item is: " + thirdElement)
 // console.log the whole array to check.
 // Don't forget, index positions start from 0!
 
+console.log("Before: " + favouriteFood)
 
+favouriteFood[0] = "yuzu"
 
-
-
+console.log("After: " + favouriteFood)
 
 
 /*
@@ -136,6 +133,9 @@ console.log("The third item is: " + thirdElement)
 // TODO: Let's extend your list of favouriteFood and add one more value to it.
 // console.log list your favouriteFood and check it.
 
+favouriteFood.push("apples")
+
+console.log("Added item: " + favouriteFood)
 
 
 
