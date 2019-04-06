@@ -117,7 +117,7 @@ let numberTwo
 let name = "Miriam"
 let age = 25
 
-alert("My name is " + name + " and I am " + age + " years old.")
+// alert("My name is " + name + " and I am " + age + " years old.")
 
 // String concatenatation is required for an alert message containing variables. The concatenation does not include spaces!!
 
@@ -144,10 +144,12 @@ alert("My name is " + name + " and I am " + age + " years old.")
 // TODO: Create a constant, and display it an alert pop-up box.
 const speedOfLight = 299792458
 
-alert("The speed of light is " + speedOfLight)
+// alert("The speed of light is " + speedOfLight)
 
 // TODO: Try to assign a new value to your constant to see what happens.
+speedOfLight = 0
 
+// Trying to reassign a constant variable causes a TypeError to be raised
 
 
 // TODO: Don't forget to comment out alerts if you don't want them to pop-up
