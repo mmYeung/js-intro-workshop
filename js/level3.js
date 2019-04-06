@@ -232,10 +232,8 @@ image.src = "img/kittens.jpeg"
 
 // TODO: Get any element on the page and change some styles for it.
 
-
-
-
-
+const header = document.querySelector("header")
+header.style.backgroundColor = "black"
 
 
 /*
