@@ -209,6 +209,8 @@ console.log("New title: " + ourTitle.textContent)
 const image = document.querySelector("img")
 image.src = "img/kittens.jpeg"
 
+const ourTwitter = document.querySelector('.twitter');
+ourTwitter.id = "surprise";
 
 
 
