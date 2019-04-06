@@ -162,9 +162,22 @@ console.log("Added item: " + favouriteFood)
 // TODO: Repeat the previous exercises with your arrays defined as constants,
 // to see what happens.
 
+console.log("constant array")
+const favouriteFoodconst = ["apple", "orange", "pear"]
+console.log("Length of constant array " + favouriteFoodconst.length)
 
+let constThird = favouriteFoodconst[2]
+console.log("constant array third item: ", constThird)
 
+favouriteFoodconst[0] = "yuzu"
+console.log("Constant array, change first: ", favouriteFoodconst)
 
+favouriteFoodconst.push("apple")
+
+console.log("Constant array, add element", favouriteFoodconst)
+
+// favouriteFoodconst = ["mouse", "cheese"]
+// The above code throws a TypeError
 
 /*
     Loops
