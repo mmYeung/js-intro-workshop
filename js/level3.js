@@ -206,6 +206,8 @@ console.log("New title: " + ourTitle.textContent)
 // TODO: Update the value of the 'src' attribute of our img tag to
 // "img/kittens.jpeg"
 
+const image = document.querySelector("img")
+image.src = "img/kittens.jpeg"
 
 
 
